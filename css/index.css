@@ -1,0 +1,31 @@
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.clock{
+  position: absolute;
+  left: 80vw;
+  margin: 0;
+  font-size: 80px;
+  color: white;
+  -webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: black
+}
+.weather{
+  position: relative;
+  top:88vh;
+  color: white;
+  font-style: oblique;
+  text-align: center;
+  
+}
+.quote{
+  position: relative;
+  top: 86vh;
+  color:white;
+  text-align: center;
+}
