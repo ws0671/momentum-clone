@@ -29,3 +29,36 @@ img {
   color:white;
   text-align: center;
 }
+.hidden {
+  display: none;
+}
+
+#login-form{
+  position: relative;
+  font-size:30px;
+  top: 30vh;
+  color: white;
+  text-align: center;
+}
+#login-form input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  width: 500px;
+  font-size: 30px;
+  text-align: center;
+  color: white
+}
+#login-form input:focus{
+  outline: none;
+}
+
+#greeting{
+  position: relative;
+  font-size:60px;
+  top: 30vh;
+  color: white;
+  text-align: center;
+}
